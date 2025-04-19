@@ -11,40 +11,40 @@ const testimonials = [
     id: 1,
     name: "Robin Ayala Doe", 
     image: "https://randomuser.me/api/portraits/men/77.jpg",
-    text: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast.",
+    text: "This AI agent has completely transformed the way I search for information. It delivers relevant and reliable results instantly, saving me hours of manual browsing.",
   },
   {
     id: 2,
-    name: "John De marli",
+    name: "John De Marli",
     image: "https://randomuser.me/api/portraits/women/90.jpg", 
-    text: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.",
+    text: "The intelligent assistant helped me navigate both online and internal resources with ease. It's like having a research expert by my side at all times.",
   },
   {
     id: 3,
     name: "Rowhan Smith",
     image: "https://randomuser.me/api/portraits/men/90.jpg",
-    text: "When she reached the first hills of the Mountains, she had a last view back on the of her hometown Bookmarksgrove, the headline.",
+    text: "I was amazed by how efficiently the AI agent retrieved and summarized key insights from old reports and web data. It’s an invaluable tool for in-depth research.",
   },
   {
     id: 4,
     name: "Sarah Johnson",
     image: "https://randomuser.me/api/portraits/women/45.jpg",
-    text: "The customer service has been exceptional. They went above and beyond to help me solve my problems and were always available when I needed them.",
+    text: "The AI support has been exceptional. Every question I asked was answered with context-aware, sourced responses that helped me make better decisions faster.",
   },
   {
     id: 5,
     name: "Michael Chen",
     image: "https://randomuser.me/api/portraits/men/32.jpg",
-    text: "I've been using their services for over a year now and couldn't be happier. The platform is intuitive and the features are exactly what I needed for my business.",
+    text: "I've been using this AI-powered solution for months to conduct market analysis and strategic research. It consistently delivers accurate and actionable results.",
   },
   {
     id: 6,
     name: "Emma Wilson",
     image: "https://randomuser.me/api/portraits/women/28.jpg",
-    text: "What impressed me most was how quickly they responded to my requests. The team is professional, knowledgeable, and truly cares about their customers' success.",
+    text: "What impressed me most was how quickly the AI cross-referenced web data with my internal documentation. It’s like having a 24/7 research assistant tailored to my needs.",
   },
-
 ];
+
 
 const TestimonialsSection = () => {
   return (
@@ -63,7 +63,7 @@ const TestimonialsSection = () => {
           variants={fadeIn('up', 0.4)}
           className="text-gray-600"
         >
-          Things that make it the best place to start trading
+          
         </motion.p>
       </motion.div>
 

@@ -7,17 +7,17 @@ const FeaturesSection = () => {
     {
       icon: "🔍", 
       title: "Find out what you need",
-      description: "We present you a proposal and discuss nitty-gritty like"
+      description: "We help you find the right solution for your business by contextualising your needs"
     },
     {
       icon: "⚙️",
       title: "Work out the details", 
-      description: "Communication protocols apart from engagement models"
+      description: "Our model is set up to perform well with built-in hallucination checking"
     },
     {
       icon: "🚀",
-      title: "We get to work fast",
-      description: "Protocols apart from engage models, pricing billing"
+      title: "Improve and custom your clients experience ",
+      description: "We helps you give deploy the best solution for your clients by providing the best experience"
     }
   ]
 
@@ -42,7 +42,6 @@ const FeaturesSection = () => {
           variants={fadeIn('up', 0.4)}
           className="text-gray-600"
         >
-          When you resell besnik, you build trust and increase
         </motion.p>
       </motion.div>
       
@@ -98,7 +97,7 @@ const FeaturesSection = () => {
           whileTap={{ scale: 0.95 }}
           className="bg-blue-600 text-white cursor-pointer px-8 py-3 rounded-full font-medium hover:bg-blue-700 transition-colors relative"
         >
-          Become a Partner
+          Test our AI Agent
           <div className="absolute -z-10 w-full h-full rounded-full bg-blue-600/30 blur-xl top-0 left-0"></div>
         </motion.button>
       </motion.div>
