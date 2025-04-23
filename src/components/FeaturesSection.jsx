@@ -1,8 +1,13 @@
 import React from 'react'
 import { motion } from "framer-motion";
 import { fadeIn, textVariant } from "../utils/motion";
-
+import { useNavigate } from 'react-router-dom';
 const FeaturesSection = () => {
+  const navigate = useNavigate();
+
+  const onChatRedirect = () => {
+    navigate('/ai-agent');
+  };
   const features = [
     {
       icon: "🔍", 
@@ -87,20 +92,16 @@ const FeaturesSection = () => {
         ))}
       </motion.div>
 
-      <motion.div 
-        variants={fadeIn('up', 0.7)}
-        className="text-center mt-12"
+      <motion.button 
+        variants={fadeIn('up', 0.8)}
+        whileHover={{ scale: 1.05 }}
+        whileTap={{ scale: 0.95 }}
+        className="bg-blue-600 text-white cursor-pointer px-8 py-3 rounded-full font-medium hover:bg-blue-700 transition-colors relative"
+        onClick={onChatRedirect} // ✅ Ajout ici
       >
-        <motion.button 
-          variants={fadeIn('up', 0.8)}
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-          className="bg-blue-600 text-white cursor-pointer px-8 py-3 rounded-full font-medium hover:bg-blue-700 transition-colors relative"
-        >
-          Test our AI Agent
-          <div className="absolute -z-10 w-full h-full rounded-full bg-blue-600/30 blur-xl top-0 left-0"></div>
-        </motion.button>
-      </motion.div>
+        Test our AI Agent
+        <div className="absolute -z-10 w-full h-full rounded-full bg-blue-600/30 blur-xl top-0 left-0"></div>
+      </motion.button>
     </motion.section>
   )
 }

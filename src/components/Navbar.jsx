@@ -12,6 +12,8 @@ const Navbar = () => {
     { href: "#about", label: "About Us" },
     { href: "#services", label: "Our Service" },
     { href: "#testimonials", label: "Testimonials" },
+    // Add this to your navLinks array in Navbar.jsx
+    { href: "/chat", label: "Chat AI" },
   ]
 
   return (
